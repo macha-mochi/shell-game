@@ -11,7 +11,7 @@ public class TerrainManager : MonoBehaviour
     {
         beachLayerIndex = LayerMask.NameToLayer("TerrainTriggers");
         indexPlayerOn = 0;
-        tileSideLength = beachTiles[0].transform.localScale.x;
+        tileSideLength = beachTiles[0].transform.localScale.z;
     }
 
     void OnTriggerEnter(Collider other)

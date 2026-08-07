@@ -49,7 +49,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FogNoise:
-        m_Texture: {fileID: 11700000, guid: 4c9439e8838e178468233209c740f6bb, type: 2}
+        m_Texture: {fileID: 11700000, guid: e864978d2c87d9948b4e0c6c199d71d3, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -96,19 +96,22 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DensityMultiplier: 0.05
-    - _DensityThreshold: 0
+    - _DensityMultiplier: 0.2
+    - _DensityThreshold: 0.093
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _FalloffManualMultiplier: 0.7
+    - _FogNoiseTiling: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LightScattering: 0.429
     - _MaxDistance: 100
     - _Metallic: 0
-    - _NoiseOffset: 0
+    - _NoiseOffset: 1
     - _NoiseTiling: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -126,8 +129,10 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.20018983, g: 0.21044663, b: 0.26415092, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogNoiseSampleOffset: {r: 15, g: 0, b: 0, a: 0}
+    - _LightContribution: {r: 0.161208, g: 0.23184004, b: 0.3584906, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
