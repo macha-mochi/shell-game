@@ -36,8 +36,6 @@ public class FirstPersonController : MonoBehaviour
     public void HandleMove(){
         Vector2 input = moveAction.action.ReadValue<Vector2>();
 
-        Debug.Log(input);
-
         // want W = forward in X direction
         Vector3 dir = (transform.right * input.x + transform.forward * input.y).normalized;
         controller.Move(dir * moveSpeed * Time.deltaTime);
